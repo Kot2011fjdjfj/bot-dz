@@ -193,7 +193,7 @@ def clear_schedule():
 def main() -> None:
     load_homework()
     load_schedule()
-    application = ApplicationBuilder().token("7177177518:AAGCXFgxplOQlRck_5W0_Bnp9lu4be9PyrQ").build()
+    application = ApplicationBuilder().token("токен бота свой поставь эээээ").build()
 #список команд типо
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("add", add_homework))
